@@ -17,7 +17,7 @@ function UserBookings() {
   return (
     <DefaultLayout>
         {loading && (<Spinner />)}
-      <h3 className="text-center mt-2">My Bookings</h3>
+      <h3 className="text-center mt-5">My Bookings</h3>
     
       <Row justify="center" gutter={16}>
         <Col lg={16} sm={24}>
@@ -39,7 +39,7 @@ function UserBookings() {
                 </Col>
 
                 <Col lg={6} sm={24} className='text-right'>
-                    <img style={{borderRadius:5}} src={booking.car.image}  height="140" className="p-2"/>
+                    <img style={{borderRadius:5}} src={booking.car.image}  height="140" className="p-3"/>
                 </Col>
               </Row>;
             })}

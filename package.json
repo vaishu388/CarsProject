@@ -1,11 +1,10 @@
 {
-  "name": "sheycars",
+  "name": "t12cars",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "engines": {
-    "node" : "15.7.0",
-    "npm" : "7.4.3"
+    "node": "15.7.0",
+    "npm": "7.4.3"
   },
   "scripts": {
     "client-install": "npm install --prefix client",
@@ -18,10 +17,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "mongoose": "^6.0.11",
     "nodemon": "^2.0.14",
     "stripe": "^8.184.0",
     "uuid": "^8.3.2"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
