@@ -7,7 +7,7 @@ import store from './redux/store';
 import {Provider} from 'react-redux'
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <App renderUrl="https://mernapplication-1.onrender.com" />
   </Provider>,
   document.getElementById('root')
 );
